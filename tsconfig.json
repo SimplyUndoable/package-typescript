@@ -1,0 +1,19 @@
+{
+	"extends": "./preset/ts",
+	"include": [
+		"app"
+	],
+	"exclude": [
+		"node_modules",
+		"build"
+	],
+	"compilerOptions": {
+		"baseUrl": "./src",
+		"paths": {
+			"~*": [
+				"./*"
+			]
+		},
+		"outDir": "./build"
+	}
+}
