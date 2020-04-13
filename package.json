@@ -1,6 +1,6 @@
 {
 	"name": "@simplyundoable/typescript-preset",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Custom typescript preset for SimplyUndoable",
 	"author": "Halvard Mørstad <halvard@simplyundoable.com> (https://twitter.com/Halvardssm)",
 	"license": "MIT",
