@@ -1,4 +1,5 @@
 {
+	"extends": "./core",
 	"include": [
 		"../../../../src"
 	],
@@ -17,36 +18,6 @@
 				"../../../../*"
 			]
 		},
-		"outDir": "../../../../build",
-		"module": "esnext",
-		"target": "esnext",
-		"moduleResolution": "node",
-		"lib": [
-			"esnext"
-		],
-		"sourceMap": true,
-		"removeComments": true,
-		"experimentalDecorators": true,
-		"allowJs": false,
-		"checkJs": false,
-		"noEmit": true,
-		"esModuleInterop": true,
-		"declaration": true,
-		"forceConsistentCasingInFileNames": true,
-		"noImplicitReturns": true,
-		"noImplicitThis": true,
-		"noImplicitAny": true,
-		"strictNullChecks": true,
-		"suppressImplicitAnyIndexErrors": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-		"allowSyntheticDefaultImports": true,
-		"importHelpers": true,
-		"preserveConstEnums": true,
-		"allowUnreachableCode": true,
-		"resolveJsonModule": true,
-		"strict": false,
-		"alwaysStrict": false,
-		"noFallthroughCasesInSwitch": false
+		"outDir": "../../../../build"
 	}
 }
