@@ -1,4 +1,7 @@
 {
+	"include": [
+		"../../../../**/*.ts"
+	],
 	"compilerOptions": {
 		"module": "esnext",
 		"target": "esnext",

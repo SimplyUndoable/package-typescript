@@ -2,11 +2,11 @@
 	"name": "@simplyundoable/typescript-preset",
 	"version": "1.0.1",
 	"description": "Custom typescript preset for SimplyUndoable",
-	"author": "Halvard Mørstad <halvard@simplyundoable.com> (https://twitter.com/Halvardssm)",
+	"author": "Halvard Mørstad <halvard@simplyundoable.com> (https://twitter.com/halvardssm)",
 	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
-		"test": "tsc "
+		"test": "tsc"
 	},
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com/"
@@ -30,8 +30,6 @@
 	},
 	"devDependencies": {
 		"@simplyundoable/eslint-plugin": "^1.0.0",
-		"@typescript-eslint/parser": "^2.27.0",
-		"eslint": "^6.8.0",
 		"typescript": "^3.8.3"
 	}
 }

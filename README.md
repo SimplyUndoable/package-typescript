@@ -11,24 +11,25 @@
 ## Usage
 
 ### Tsconfig
+
 ```json
 {
-	"extends": "./node_modules/@simplyundoable/typescript-preset/ts",
-	"compilerOptions": {
-		"noEmit": false,
-		"baseUrl": "./src",
-		"paths": {
-			"~*": ["./*"]
-		},
-		"outDir": "build"
-	},
-	"include": [
-		"src"
-	],
-	"exclude": [
-		"node_modules",
-		"build",
-		"app"
-	]
+ "extends": "./node_modules/@simplyundoable/typescript-preset/ts",
+ "compilerOptions": {
+  "noEmit": false,
+  "baseUrl": "./src",
+  "paths": {
+   "~*": ["./*"]
+  },
+  "outDir": "build"
+  },
+ "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "app"
+  ]
 }
 ```

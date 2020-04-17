@@ -1,3 +1,3 @@
 module.exports = {
-	extends: ['plugin:@simplyundoable/ts']
-}
+  extends: ['./node_modules/@simplyundoable/eslint-plugin/presets/ts'],
+};
